@@ -4,11 +4,10 @@ import (
 	"context"
 	"fmt"
 	"github.com/redis/go-redis/v9"
-	"net"
-	"strconv"
-
 	"google.golang.org/grpc"
 	"grpc_server/shopping"
+	"net"
+	"strconv"
 )
 
 type ShoppingServiceServer struct {
